@@ -36,7 +36,7 @@ int main(void)
         else  
         {
             led_off();
-		    _delay_ms(1000);
+		    _delay_ms(2000);
         }
 
     }
