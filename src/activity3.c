@@ -44,6 +44,7 @@ void activity3(uint16_t temp)
     
         else
         {
+            
             OCR1A=0;
             _delay_ms(2000);
         }
