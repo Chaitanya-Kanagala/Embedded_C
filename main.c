@@ -23,7 +23,7 @@ int main(void)
 	 
         if(activity1()==1) 
         {
-            /* Toggling Led activity 1*/ 
+            /* Activity 1 Toggling Led*/ 
             led_on();
 		
 	    /* Activity_2 related to ADC value*/
@@ -31,6 +31,7 @@ int main(void)
 		
 	    /* Activity 3 Pulse Width Modulation according to its ADC value*/
             activity3(temp); 
+
 	    /* Communication using USART protocol */
             activity4(temp);
 	   
