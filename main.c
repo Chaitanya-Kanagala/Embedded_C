@@ -25,10 +25,14 @@ int main(void)
         {
             /* Toggling Led activity 1*/ 
             led_on();
+		
 	    /* Activity_2 related to ADC value*/
             temp=activity2();
+		
 	    /* Activity 3 Pulse Width Modulation according to its ADC value*/
             activity3(temp); 
+	    /* Communication using USART protocol */
+            activity4(temp);
 	   
             
 
