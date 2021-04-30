@@ -20,7 +20,7 @@
 
 
 /* pulse width modulation for 75%*/
-#define pwm_75 (730) 
+#define pwm_75 (750) 
 
 
 /* pulse width modulation for 95%*/
