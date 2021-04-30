@@ -33,7 +33,7 @@ void activity3(uint16_t temp)
         }
     
         else if(temp>=510 && temp<=750){
-             OCR1A = pwm_70;
+             OCR1A = pwm_75;
             _delay_ms(2000);
         }
     
